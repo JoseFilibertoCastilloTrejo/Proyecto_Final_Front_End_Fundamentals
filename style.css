@@ -167,6 +167,8 @@ nav ul {
     flex-direction: column;   /* Apila los elementos verticalmente: Imagen -> Texto -> Precio */
     align-items: center;      /* Centra todo el contenido internamente */
     text-align: center;       /* Alinea los textos al centro */
+    background-color: #037bc0;  /*fondo zaul */
+    color:white   /* color del texto */
 }
 
 /* --- CONTROL AUTOMÁTICO DE LA IMAGEN --- */
@@ -185,7 +187,7 @@ nav ul {
 
 .tarjeta-producto p {
     margin: 0 0 15px 0;       /* Controla el espacio de la descripción */
-    color: #777777;           /* Un tono más legible para descripciones */
+    color:white;           /* Un tono más legible para descripciones */
 }
 
 .tarjeta-producto .precio {
@@ -205,10 +207,13 @@ nav ul {
     cursor: pointer;
     border-radius: 5px;
     font-size: 1.6rem;
+    background-color: rgb(4, 206, 4);
+    color: white;
+    
 }
 
 .tarjeta-producto button:hover {
-    background-color: #025a8f;
+    background-color: rgb(24, 66, 24); 
 }
 
 
@@ -217,8 +222,9 @@ nav ul {
 .tarjeta-producto-horizontal {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 30px;
+    align-items: center;      /* Centra todo el contenido internamente */
+    text-align: center;       /* Alinea los textos al centro */
+    gap: 00px;
     width: 100%;
 }
 
@@ -237,8 +243,10 @@ nav ul {
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+    align-items: center;      /* Centra todo el contenido internamente */
+    text-align: center;       /* Alinea los textos al centro */
+    background-color: #037bc0;  /*fondo zaul */
+    color:white   /* color del texto */
 }
 
 /* Título */
@@ -251,7 +259,7 @@ nav ul {
 /* Descripción */
 
 .tarjeta-producto-horizontal p {
-    color: #777777;
+    color: white;
     margin: 0 0 15px 0;
 }
 
@@ -267,7 +275,7 @@ nav ul {
 /* Botón */
 
 .tarjeta-producto-horizontal button {
-    background-color: #037bc0;
+    background-color: rgb(4, 206, 4);
     color: white;
     border: none;
     padding: 12px 25px;
@@ -277,7 +285,13 @@ nav ul {
 }
 
 .tarjeta-producto-horizontal button:hover {
-    background-color: #025a8f;
+    background-color: rgb(24, 66, 24); 
+}
+
+.categoria h3 {
+    background-color: #aeedf8;  /*fondo zaul */
+    color: rgb(53, 156, 240);
+    margin: 0;
 }
 
 /* FOOTER */
