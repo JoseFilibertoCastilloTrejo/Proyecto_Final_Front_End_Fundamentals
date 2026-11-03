@@ -84,12 +84,11 @@ nav ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     gap: 20px;
     font-size: 2rem;
     }
-
 
 /* BOTONES DEL MENU */
 
@@ -149,6 +148,16 @@ nav ul {
     background-repeat: no-repeat;    /* Evita que la imagen se duplique */
 }
 
+
+/* Imagen principal */
+
+.foto-hero {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
 /* --- CONTENEDOR PRINCIPAL DE PRODUCTOS --- */
 .row-prod {
     display: flex;            /* Activa Flexbox para poner las tarjetas en fila */
@@ -156,7 +165,7 @@ nav ul {
     justify-content: center;  /* Centra el grupo de productos en la pantalla */
     gap: 30px;                /* Separa las tarjetas de forma idéntica */
     margin: 40px auto;        /* Margen arriba/abajo y centrado general */
-    max-width: 1200px;        /* Evita que se estiren de más en pantallas gigantes */
+    max-width: 100%;        /* Evita que se estiren de más en pantallas gigantes */
     padding: 0 20px;          /* Colchón de seguridad a los lados */
 }
 
